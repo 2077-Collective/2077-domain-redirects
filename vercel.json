@@ -2,6 +2,17 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
+      "source": "/",
+      "has": [{ "type": "host", "value": "etherpedia.2077.xyz" }],
+      "destination": "https://etherpedia.2077collective.xyz",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "destination": "https://research.2077.xyz",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
